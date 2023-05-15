@@ -1,0 +1,33 @@
+.aboutthem {
+  margin: 2rem;
+  padding: 5rem;
+  text-align: start;
+}
+.aboutthem p {
+  font-size: 20px;
+}
+.groups {
+  display: flex;
+  margin: 5rem;
+}
+.groups a {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  background-color: whitesmoke;
+  width: 20%;
+  padding: 15px;
+  height: 50%;
+  box-shadow: 5px 5px 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .groups {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

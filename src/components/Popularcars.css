@@ -1,0 +1,44 @@
+.popularcars {
+  margin: 25px;
+  padding: 25px;
+}
+
+.images {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  z-index: -99;
+}
+.images img {
+  width: 40%;
+  height: 350px;
+  margin: 10px;
+  gap: 50;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 60px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 850px) {
+  .popularcars {
+    margin: 4rem 2rem;
+  }
+  .firstpopularcars {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+  }
+  .firstpopularText {
+    width: 100%;
+    height: 100%;
+  }
+  .images {
+    width: 150%;
+    margin: 2rem 0;
+  }
+  image img {
+    height: 250px;
+  }
+}
